@@ -14,10 +14,15 @@ This repository is created for the Udacity Linux Server Configuration project su
 - Full url path to reach the application is [http://18.222.22.198.xip.io](#http://18.222.22.198.xip.io)
 
 ## Configuration change details
+* Disable ```root``` login
+    - The PermitRootLogin property in the ssh config file was edited using the command ```sudo nano /etc/ssh/sshd_config``` and set to ```no``` 
+    
 * Packages update
     - First login was made into the server using the ```ubuntu``` user
     - The sources list was then updated using the command ```sudo apt-get update```
     - All existing packages were then upgraded using the command ```sudo apt-get upgrade```
+    - Packages specific to this ubuntu distribution were also upgraded using the command ```sudo sudo apt-get dist-upgrade
+```
     - Packages that are not being used were then removed using the command ```sudo apt-get autoremove```
     - ```finger``` package was then installed using the command ```sudo apt-get install finger```
 
