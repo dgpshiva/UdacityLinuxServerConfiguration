@@ -125,4 +125,4 @@ This repository is created for the Udacity Linux Server Configuration project su
 - The path ```http://18.222.22.198.xip.io/v1/categories/``` was added as a Authorized Redirect URI
 
 ## References
-- The [blog post](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps) was really helpful is getting a better idea of steps to perform to deply the app
+- The [blog post](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps) was really helpful is getting a better idea of steps to perform to deploy the app
