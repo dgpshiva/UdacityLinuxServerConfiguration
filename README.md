@@ -1,6 +1,6 @@
 # UdacityLinuxServerConfiguration
 
-This repository is created for the Udacity Linux Server Configuration project submission. It details the steps that were folowed and the final configuration of the server on which the app was deployed.
+This repository is created for the Udacity Linux Server Configuration project submission. It details the steps that were followed and the final configuration of the server on which the app was deployed.
 
 ## Table of content
 - [Server and Deployment details](#server-and-deployment-details)
@@ -21,8 +21,7 @@ This repository is created for the Udacity Linux Server Configuration project su
     - First login was made into the server using the ```ubuntu``` user
     - The sources list was then updated using the command ```sudo apt-get update```
     - All existing packages were then upgraded using the command ```sudo apt-get upgrade```
-    - Packages specific to this ubuntu distribution were also upgraded using the command ```sudo sudo apt-get dist-upgrade
-```
+    - Packages specific to this ubuntu distribution were also upgraded using the command ```sudo sudo apt-get dist-upgrade```
     - Packages that are not being used were then removed using the command ```sudo apt-get autoremove```
     - ```finger``` package was then installed using the command ```sudo apt-get install finger```
 
